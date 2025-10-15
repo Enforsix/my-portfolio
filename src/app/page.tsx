@@ -105,7 +105,7 @@ export default function App() {
         <h2 className="text-3xl font-bold mb-4 text-center">Ferdigheter</h2>
         <div className="flex flex-wrap justify-center gap-4">
           {skills.map((skill) => (
-            <span key={skill} className="bg-lime-500 hover:bg-green-900 text-white px-4 py-2 rounded-full">{skill}</span>
+            <span key={skill} className="bg-lime-500 hover:bg-green-900 text-black px-4 py-2 rounded-full">{skill}</span>
           ))}
         </div>
       </section>
