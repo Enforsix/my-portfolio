@@ -9,7 +9,7 @@ const projects = [
     github: "https://github.com/Enforsix",
   },
   {
-    name: "OIID-Gules",
+    name: "OIID",
     description: "Prosjekt utviklet i React og Next.js.",
     image: "Oiid2.png",
     link: "https://oiid-gules.vercel.app",
