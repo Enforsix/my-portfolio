@@ -44,14 +44,14 @@ export default function App() {
     <div className="font-sans bg-gray-50 text-gray-800">
       {/* Hjem / Intro */}
       <section className="flex flex-col md:flex-row justify-center items-center bg-gradient-to-b from-lime-500 to-green-900 text-white text-center md:text-left p-8 gap-8">
-  <div className="flex md:w-1/2 ">
-  <div className="md:w-1/2 flex justify-center">
-    <Image
-  src="/christian.jpg"
-  alt="Christian Gullaksen"
-  width={256}
-  height={256}
-  className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-lg"
+      <div className="flex md:w-1/2 ">
+      <div className="md:w-1/2 flex justify-center">
+  <Image
+    src="/christian.jpg"
+    alt="Christian Gullaksen"
+    width={256}
+    height={256}
+    className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-lg"
 />
 
   </div>
@@ -83,14 +83,15 @@ export default function App() {
       {/* Prosjekter */}
       <div className="text-center text-3xl font-bold mb-3"><h2>Prosjekter jeg har jobbet med</h2></div>
       <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-  {projects.map((project) => (
+      {projects.map((project) => (
     <a
       key={project.name}
       href={project.link}
       target="_blank"
       className="bg-white rounded-lg shadow overflow-hidden hover:shadow-lg transition transform hover:scale-105"
     >
-      <img
+
+      <Image
         src={project.image}
         alt={project.name}
         className="w-full h-48 object-cover"
