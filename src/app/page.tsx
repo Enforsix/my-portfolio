@@ -2,7 +2,13 @@ import React from "react";
 import Image from "next/image";
 
 const projects = [
-
+    {
+    name: "Bergen Works",
+    description: "Frontend-utvikling for moderne webapplikasjon.",
+    image: "Bergen.Works2.png",
+    link: "https://bergen.works",
+    github: "https://github.com/Enforsix",
+  },
   {
     name: "OIID",
     description: "Prosjekt utviklet i React og Next.js.",
