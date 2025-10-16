@@ -47,10 +47,13 @@ export default function App() {
   <div className="flex md:w-1/2 ">
   <div className="md:w-1/2 flex justify-center">
     <Image
-      src="christian.jpg" 
-      alt="Christian Gullaksen" 
-      className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-lg"
-    />
+  src="/christian.jpg"
+  alt="Christian Gullaksen"
+  width={256}
+  height={256}
+  className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-lg"
+/>
+
   </div>
   <div>
     <h1 className="text-5xl font-bold mb-4">Christian Gullaksen</h1>
