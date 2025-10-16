@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const projects = [
   {
@@ -45,7 +46,7 @@ export default function App() {
       <section className="flex flex-col md:flex-row justify-center items-center bg-gradient-to-b from-lime-500 to-green-900 text-white text-center md:text-left p-8 gap-8">
   <div className="flex md:w-1/2 ">
   <div className="md:w-1/2 flex justify-center">
-    <img 
+    <Image
       src="christian.jpg" 
       alt="Christian Gullaksen" 
       className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-lg"
