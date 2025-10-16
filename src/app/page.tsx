@@ -3,6 +3,7 @@ import Image from "next/image";
 
 const projects = [
     {
+    
     name: "Bergen Works",
     description: "Frontend-utvikling for moderne webapplikasjon.",
     image: "Bergen.Works2.png",
