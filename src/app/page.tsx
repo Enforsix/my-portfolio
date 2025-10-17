@@ -5,28 +5,28 @@ const projects = [
     {    
     name: "Bergen Works",
     description: "Frontend-utvikling for moderne webapplikasjon.",
-    image: "Bergen.Works2.png",
+    image: "/Bergen.Works2.png",
     link: "https://bergen.works",
     github: "https://github.com/Enforsix",
   },
   {
     name: "OIID",
     description: "Prosjekt utviklet i React og Next.js.",
-    image: "Oiid2.png",
+    image: "/Oiid2.png",
     link: "https://oiid-gules.vercel.app",
     github: "https://github.com/Enforsix",
   },
   {
     name: "Napracare",
     description: "Webapplikasjon med fokus på responsivt design.",
-    image: "Napracare2.png",
+    image: "/Napracare2.png",
     link: "https://napracare.vercel.app",
     github: "https://github.com/Enforsix",
   },
   {
     name: "Kodeveret Bergen",
     description: "Webapplikasjon med fokus på responsivt design.",
-    image: "KodeVerketBergen.png",
+    image: "/KodeVerketBergen.png",
     link: "http://kodeverketbergen.no",
     github: "https://github.com/Enforsix",
   },
@@ -90,12 +90,16 @@ export default function App() {
       target="_blank"
       className="bg-white rounded-lg shadow overflow-hidden hover:shadow-lg transition transform hover:scale-105"
     >
-
-      <Image
+      <div>
+        <Image
         src={project.image}
         alt={project.name}
+        height={200}
+        width={200}
         className="w-full h-48 object-cover"
       />
+      </div> 
+      
       <div className="p-4">
         <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
         <p className="text-gray-600">{project.description}</p>
