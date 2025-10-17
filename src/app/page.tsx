@@ -5,14 +5,14 @@ const projects = [
     {    
     name: "Bergen Works",
     description: "Frontend-utvikling for moderne webapplikasjon.",
-    image: "/Bergen.Works2.png",
+    image: "/bw.png",
     link: "https://bergen.works",
     github: "https://github.com/Enforsix",
   },
   {
     name: "OIID",
     description: "Prosjekt utviklet i React og Next.js.",
-    image: "/Oiid2.png",
+    image: "/oi.png",
     link: "https://oiid-gules.vercel.app",
     github: "https://github.com/Enforsix",
   },
