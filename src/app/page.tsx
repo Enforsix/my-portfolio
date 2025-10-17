@@ -81,7 +81,7 @@ export default function App() {
 </section>
 
       {/* Prosjekter */}
-      <div className="text-center text-3xl font-bold mb-3"><h2>Prosjekter jeg har jobbet med</h2></div>
+      <div className="text-center text-3xl font-bold mb-3"><h2>Prosjekter jeg har jobbet med fra Start til Fullført</h2></div>
       <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
       {projects.map((project) => (
     <a
