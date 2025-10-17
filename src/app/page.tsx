@@ -19,7 +19,7 @@ const projects = [
   {
     name: "Napracare",
     description: "Webapplikasjon med fokus på responsivt design.",
-    image: "/Napracare2.png",
+    image: "/Nap.png",
     link: "https://napracare.vercel.app",
     github: "https://github.com/Enforsix",
   },
